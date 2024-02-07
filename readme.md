@@ -24,6 +24,63 @@ Controller: Serves as an interface between view & model components
 
 To build the static files, this application utilizes webpack. It minifies and optimizes output files and copies all necessary files to a `dist` folder.
 
+## Tests
+
+Header Component:
+Rendering Test:
+
+Verify that the Header component renders correctly.
+Dispatch Test:
+
+Test if the dispatch function is called when submitting a new todo.
+Footer Component:
+Rendering Test:
+
+Ensure that the Footer component renders correctly.
+Active Todos Count Test:
+
+Test if the count of active todos is displayed correctly.
+Filter Navigation Test:
+
+Verify that the filter navigation links are present and working as expected.
+Remove Completed Test:
+
+Test if the "Clear completed" button triggers the REMOVE_COMPLETED_ITEMS action.
+Input Component:
+Rendering Test:
+
+Check if the Input component renders correctly.
+Enter Key Press Test:
+
+Test if pressing Enter triggers the onSubmit function.
+Item Component:
+Rendering Test:
+
+Check if the Item component renders correctly.
+Toggle Item Test:
+
+Test if toggling the checkbox triggers the TOGGLE_ITEM action.
+Remove Item Test:
+
+Verify that clicking the remove button triggers the REMOVE_ITEM action.
+Main Component:
+Rendering Test:
+
+Ensure that the Main component renders correctly.
+Toggle All Test:
+
+Test if toggling the "Toggle All" checkbox triggers the TOGGLE_ALL action.
+Visible Todos Test:
+
+Check if the visible todos are displayed based on the current route.
+App Component:
+Rendering Test:
+
+Verify that the App component renders correctly.
+Use Reducer Test:
+
+Check if the useReducer hook is correctly used in the App component.
+
 ## Requirements
 
 The only requirement is an installation of Node, to be able to install dependencies and run scripts to serve a local server.
